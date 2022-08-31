@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0px auto;
+}
+
+header, main, footer {
+  background-color: #FFF;
+}
+
+.text {
+  color: green;
+}
+
+.row {
+  margin-right: 0;
+}
+
+h1 {
+  padding: 15px 5px 15px 5px;
+}
+
+h1 > span {
+  color: red;
+}
+
+h2 {
+  right: 30px;
+}
+
+.form-width {
+  max-width: 720px;
+  margin: 0px auto;
+}
+
+img-size {
+  max-width: 200;
+  margin: 10px;
+}
+
+p {
+  padding: 8px 5px;
+}
+
+/*# sourceMappingURL=index.css.map */
