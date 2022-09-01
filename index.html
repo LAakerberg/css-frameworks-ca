@@ -67,39 +67,37 @@
               </div>
             </div>
           </div>
-        <div class="row m-2 d-flex gap-3 justify-content-center">
-          <div class="col-md-3 py-2 border border-primary rounded d-flex flex-column postcard">
+        <div class="row m-2 d-flex flex-column gap-3 align-items-center">
+          <div class="col-md-7 py-2 border border-primary rounded d-flex flex-column ">
             <div class="p-2 flex-fill">
               <h3>Lorem ipsum dolor sit amet.</h3>
               <div>              <img
-                alt="Bootstrap Image Preview" class="img-fluid rounded"
+                alt="Bootstrap Image Preview" class="img-fluid rounded img-size"
                 src="img/celso-405219-resize1920.jpg"
               /></div>
               <dl>
                 <dt>Description lists</dt>
-                <dd>A description list is perfect for defining terms.</dd>
-                <dt>Euismod</dt>
-                <dd>
+                <p>A description list is perfect for defining terms.Euismod
                   Vestibulum id ligula porta felis euismod semper eget lacinia
-                  odio sem nec elit.
-                </dd>
-                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-                <dt>Malesuada porta</dt>
-                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                <dt>Felis euismod semper eget lacinia</dt>
-                <dd>
+                  odio sem nec elit<span id="dots">...</span><span id="more">
+              Donec id elit non mi porta gravida at eget metus.
+                Malesuada porta
+                Etiam porta sem malesuada magna mollis euismod.</dd>
+                Felis euismod semper eget lacinia
                   Fusce dapibus, tellus ac cursus commodo, tortor mauris
                   condimentum nibh, ut fermentum massa justo sit amet risus.
-                </dd>
+                  </p></span>
+                  <div onclick="myFunction()" id="myBtn" class="readmore">Read more</div>
               </dl>
             </div>
-            <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p></div>
+            <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p>
+            <p class="card-text">Posted by: Jake Wilson</p></div>
           </div>
-          <div class="col-md-3 py-2 border border-secondary rounded d-flex flex-column">
+          <div class="col-md-7 py-2 border border-secondary rounded d-flex flex-column">
             <div class="p-2 flex-fill">
               <h3>Lorem ipsum dolor sit amet.</h3>
               <img
-                alt="Bootstrap Image Preview" class="img-fluid rounded"
+                alt="Bootstrap Image Preview" class="img-fluid rounded img-size"
                 src="img/celso-405219-resize1920.jpg"
               />
               <ol>
@@ -113,13 +111,14 @@
                 <li class="list-item">Eget porttitor lorem</li>
               </ol>
             </div>
-            <div> <p class="card-text"><small class="text-muted">Posted: 29.08.2022</small></p></div>
-          </div>
-          <div class="col-md-3 py-2 border border-primary rounded d-flex flex-column">
+            <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p>
+              <p class="card-text">Posted by: Mary Hilton</p></div>
+            </div>
+          <div class="col-md-7 py-2 border border-primary rounded d-flex flex-column">
             <div class="p-2 flex-fill">
             <h3>Lorem ipsum dolor sit amet.</h3>
             <img
-              alt="Bootstrap Image Preview" class="img-fluid rounded"
+              alt="Bootstrap Image Preview" class="img-fluid rounde img-size"
               src="img/celso-405219-resize1920.jpg"
             />
               <div>            <p>
@@ -142,7 +141,8 @@
                 >
               </p></div>
           </div>
-          <div> <p class="card-text"><small class="text-muted">Posted: 27.08.2022</small></p></div>
+          <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p>
+            <p class="card-text">Posted by: Adam Norframe</p></div>
           </div>
         </div>
         <div class="row border border-primary rounded d-flex justify-content-center container-sm form-width px-2">
@@ -198,5 +198,6 @@
       </div>
     </footer>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/function.js"></script>
   </body>
 </html>
