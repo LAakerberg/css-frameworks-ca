@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Frameworks CA</title>
+    <meta
+    name="description"
+    content="SoMe - Social media app for my profile"
+  />
+    <title>SoMe One - Profile</title>
     <link rel="stylesheet" href="/dist/css/styles.css" />
   </head>
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-dark nav-bg"
+        class="navbar navbar-expand-lg navbar-dark bg-darkorange"
         aria-label="Eighth navbar example"
       >
         <div class="container">
@@ -148,13 +152,13 @@
               <h3>Post</h3>
               <form action="/profile.html" method="get">
               <label for="name" class="form-label">Name</label>
-              <input type="name" class="form-control" id="name" placeholder="Jordan Mushroom">
+              <input type="name" class="form-control" id="name" placeholder="Jordan Mushroom" required>
               <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
             </div>
             <div class="mb-3 form-width d-flex gap-3">
               <label for="textarea" class="form-label"></label>
-              <textarea class="form-control" id="textarea" rows="3" placeholder="Type your message here..."></textarea>
+              <textarea class="form-control" id="textarea" rows="3" placeholder="Type your message here..." required></textarea>
               <input type="submit" value="Send" class="btn btn-dark pt-2">
             </div>
           </form>
