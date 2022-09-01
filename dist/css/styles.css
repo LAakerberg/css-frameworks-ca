@@ -10840,6 +10840,10 @@ p {
   cursor: default;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 .profil-pic {
   width: 100%;
   max-width: 300px;
