@@ -1,5 +1,5 @@
 .navbar-brand:hover {
-    color: $cyan;
+    color: black;
 }
 
 .nav-link {
@@ -32,4 +32,8 @@
   .form-width {
     max-width: 720px;
     margin: 0px auto;
+}
+
+.row {
+    margin-right: 0;
 }
