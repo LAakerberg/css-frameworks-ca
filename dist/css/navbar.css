@@ -1,9 +1,17 @@
-.nav-bg {
-  background-color: rgb(185, 59, 0);
-}
+/* Error: Undefined variable.
+ *    ,
+ * 11 |     padding: var(--#{$prefix}nav-link-padding-y) var(--#{$prefix}nav-link-padding-x);
+ *    |                      ^^^^^^^
+ *    '
+ *   src\scss\navbar.scss 11:22  root stylesheet */
 
-.text {
-  color: green;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 11 \2502      padding: var(--#{$prefix}nav-link-padding-y) var(--#{$prefix}nav-link-padding-x);\d\a    \2502                       ^^^^^^^\a    \2575 \a   src\\scss\\navbar.scss 11:22  root stylesheet";
 }
-
-/*# sourceMappingURL=navbar.css.map */
