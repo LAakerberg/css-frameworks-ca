@@ -1,9 +1,5 @@
-.nav-bg {
-    background-color: rgb(185, 59, 0);
-}
-
-.text {
-    color: green;
+.navbar-brand:hover {
+    color: $cyan;
 }
 
 .nav-link {
@@ -32,3 +28,8 @@
   .active {
     text-decoration: underline;
   }
+
+  .form-width {
+    max-width: 720px;
+    margin: 0px auto;
+}
