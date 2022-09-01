@@ -10777,16 +10777,12 @@ header, main, footer {
   margin-right: 0;
 }
 
-h1, .h1 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   padding: 15px 5px 15px 5px;
 }
 
 h1 > span, .h1 > span {
   color: red;
-}
-
-h2, .h2 {
-  right: 30px;
 }
 
 .form-width {
@@ -10805,20 +10801,6 @@ p {
 
 .navbar-brand:hover {
   color: #0dcaf0;
-}
-
-#more {
-  display: none;
-}
-
-.readmore {
-  background-color: rgb(255, 60, 0);
-  width: 90px;
-  text-align: center;
-  border: 1px salmon solid;
-  border-radius: 5px;
-  font-style: italic;
-  color: #FFF;
 }
 
 .card-text {
