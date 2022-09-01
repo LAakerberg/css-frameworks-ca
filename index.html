@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-md-12">
+            <div class="col-md-7 d-flex justify-content-left">
               <div class="page-header">
                 <h2 class="title">Recent posts</h2>
               </div>
@@ -71,23 +71,16 @@
           <div class="col-md-7 py-2 border border-primary rounded d-flex flex-column ">
             <div class="p-2 flex-fill">
               <h3>Lorem ipsum dolor sit amet.</h3>
-              <div>              <img
+              <!-- <div>              <img
                 alt="Bootstrap Image Preview" class="img-fluid rounded img-size"
                 src="img/celso-405219-resize1920.jpg"
-              /></div>
+              /></div> -->
               <dl>
                 <dt>Description lists</dt>
                 <p>A description list is perfect for defining terms.Euismod
                   Vestibulum id ligula porta felis euismod semper eget lacinia
-                  odio sem nec elit<span id="dots">...</span><span id="more">
-              Donec id elit non mi porta gravida at eget metus.
-                Malesuada porta
-                Etiam porta sem malesuada magna mollis euismod.</dd>
-                Felis euismod semper eget lacinia
-                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                  condimentum nibh, ut fermentum massa justo sit amet risus.
-                  </p></span>
-                  <div onclick="myFunction()" id="myBtn" class="readmore">Read more</div>
+                  odio sem nec elit.
+                  </p>
               </dl>
             </div>
             <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p>
@@ -96,10 +89,10 @@
           <div class="col-md-7 py-2 border border-secondary rounded d-flex flex-column">
             <div class="p-2 flex-fill">
               <h3>Lorem ipsum dolor sit amet.</h3>
-              <img
+              <!-- <img
                 alt="Bootstrap Image Preview" class="img-fluid rounded img-size"
                 src="img/celso-405219-resize1920.jpg"
-              />
+              /> -->
               <ol>
                 <li class="list-item">Lorem ipsum dolor sit amet</li>
                 <li class="list-item">Consectetur adipiscing elit</li>
@@ -111,17 +104,17 @@
                 <li class="list-item">Eget porttitor lorem</li>
               </ol>
             </div>
-            <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p>
+            <div><p class="card-text"><small class="text-muted">Posted: 30.08.2022</small></p>
               <p class="card-text">Posted by: Mary Hilton</p></div>
             </div>
           <div class="col-md-7 py-2 border border-primary rounded d-flex flex-column">
             <div class="p-2 flex-fill">
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <img
+            <!-- <img
               alt="Bootstrap Image Preview" class="img-fluid rounde img-size"
               src="img/celso-405219-resize1920.jpg"
             />
-              <div>            <p>
+              <div>            <p> -->
                 Lorem ipsum dolor sit amet,
                 <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
                 sapien. Curabitur in metus urna. In hac habitasse platea dictumst.
@@ -141,7 +134,7 @@
                 >
               </p></div>
           </div>
-          <div><p class="card-text"><small class="text-muted">Posted: 5 mins ago</small></p>
+          <div><p class="card-text"><small class="text-muted">Posted: 27.08.2022</small></p>
             <p class="card-text">Posted by: Adam Norframe</p></div>
           </div>
         </div>
@@ -150,6 +143,7 @@
 
             <div class="mb-3 px-3">
                 <h3>Post</h3>
+                <form action="/profile.html" method="get">
                 <label for="name" class="form-label">Name</label>
                 <input type="name" class="form-control" id="name" placeholder="Jordan Mushroom">
                 <label for="email" class="form-label">Email address</label>
@@ -158,9 +152,9 @@
               <div class="mb-3 form-width d-flex gap-3">
                 <label for="textarea" class="form-label"></label>
                 <textarea class="form-control" id="textarea" rows="3" placeholder="Type your message here..."></textarea>
-                <button type="button" class="btn btn-dark pt-2">Send</button>
+                <input type="submit" value="Send" class="btn btn-dark pt-2">
               </div>
-
+            </form>
           </div>
         </div>
       </div>
@@ -198,6 +192,5 @@
       </div>
     </footer>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/function.js"></script>
   </body>
 </html>
