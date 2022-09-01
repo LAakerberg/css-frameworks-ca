@@ -34,8 +34,8 @@ h2 {
     margin: 0px auto;
 }
 
-img-size {
-    max-width: 200;
+.img-size {
+    max-width: 40%;
     margin: 10px;
 }
 
@@ -45,4 +45,21 @@ p {
 
 .navbar-brand:hover {
     color: $cyan;
+}
+
+#more {display: none;}
+
+.readmore {
+    background-color: rgb(255, 60, 0);
+    width: 90px;
+    text-align: center;
+    border: 1px salmon solid;
+    border-radius: 5px;
+    font-style: italic;
+    color: #FFF;
+}
+
+.card-text {
+    margin: 0px;
+    padding: 0px;
 }
