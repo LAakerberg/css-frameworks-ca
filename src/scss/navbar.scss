@@ -1,0 +1,39 @@
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--#{$prefix}nav-link-padding-y) var(--#{$prefix}nav-link-padding-x);
+    @include font-size(var(--#{$prefix}nav-link-font-size));
+    font-weight: var(--#{$prefix}nav-link-font-weight);
+    color: rgb(223, 223, 223);
+    text-decoration: if($link-decoration == none, null, none);
+    @include transition($nav-link-transition);
+  
+    &:hover,
+    &:focus {
+      color: var(--#{$prefix}nav-link-hover-color);
+      text-decoration: underline;
+    }
+  
+    // Disabled state lightens text
+    &.disabled {
+      color: var(--#{$prefix}nav-link-disabled-color);
+      pointer-events: none;
+      cursor: default;
+    }
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+
+  .form-width {
+    max-width: 720px;
+    margin: 0px auto;
+}
+
+.row {
+    margin-right: 0;
+}

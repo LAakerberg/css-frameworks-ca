@@ -1,18 +1,14 @@
+@import "variables.scss";
 
-$blue: blue;
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
 
-.test {
-    display: none;
+@import "main.scss";
 
-    &-button {
-        color: $blue;
-    }
-}
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-.testing-2 {
-    display: block;
-}
+@import "navbar.scss";
 
-h1 {
-    color: orange;
-}
+@import "profile.scss";
+
+@import "footer.scss";
